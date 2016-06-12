@@ -1,0 +1,5 @@
+:host: ldap.example.com
+:encryption: start_tls
+:search_base: ou=users,dc=example,dc=com
+:scope: onelevel
+:query_filter: '(uid=%u)'
