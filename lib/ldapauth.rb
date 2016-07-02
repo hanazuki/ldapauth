@@ -14,6 +14,8 @@ class LdapAuth
   }
 
   def authenticate(username, password)
+    return unless username && password
+
     Net::LDAP.new(
       host: config[:host],
       port: config[:port],
