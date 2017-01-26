@@ -27,4 +27,8 @@ class LdapAuth
       password: password,
     )
   end
+
+  def to_proc
+    method(:authenticate).to_proc
+  end
 end
