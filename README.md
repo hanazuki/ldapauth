@@ -16,3 +16,5 @@ server {
   }
 }
 ```
+
+Note that `auth_request` subrequests are also subject to `client_max_body_size`.
