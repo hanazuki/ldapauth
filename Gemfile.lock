@@ -2,7 +2,7 @@ GEM
   remote: https://rubygems.org/
   specs:
     net-ldap (0.16.1)
-    rack (2.0.3)
+    rack (2.0.4)
 
 PLATFORMS
   ruby
